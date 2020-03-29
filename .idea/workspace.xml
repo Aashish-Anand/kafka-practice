@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9a7632-c3a9-4b00-bea2-e8af0d006954" name="Default Changelist" comment="" />
+    <list default="true" id="3b9a7632-c3a9-4b00-bea2-e8af0d006954" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZkxILPcbf4k0GV6WfwyHGrQUaW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,20 +43,7 @@
       <recent name="com.github.aashish.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemo" />
-      <module name="Kafka_tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.aashish.kafka.tutorial1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ConsumerDemoPrac">
     <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoAssignSeek" />
       <module name="Kafka_tutorials" />
@@ -64,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoGroups" />
+    <configuration name="ConsumerDemoPrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoPrac" />
       <module name="Kafka_tutorials" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ProducerDemoKeys" />
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ProducerDemo" />
+      <module name="Kafka_tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.aashish.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoPrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ProducerDemoPrac" />
       <module name="Kafka_tutorials" />
       <extension name="coverage">
         <pattern>
@@ -104,19 +110,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerDemo" />
-      <item itemvalue="Application.ConsumerDemoGroups" />
-      <item itemvalue="Application.ProducerDemoKeys" />
       <item itemvalue="Application.ConsumerDemoWithThread" />
       <item itemvalue="Application.ConsumerDemoAssignSeek" />
+      <item itemvalue="Application.ProducerDemoPrac" />
+      <item itemvalue="Application.ProducerDemo" />
+      <item itemvalue="Application.ConsumerDemoPrac" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoPrac" />
+        <item itemvalue="Application.ProducerDemoPrac" />
+        <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="Application.ConsumerDemoAssignSeek" />
         <item itemvalue="Application.ConsumerDemoWithThread" />
-        <item itemvalue="Application.ConsumerDemoGroups" />
-        <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -138,29 +144,41 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1500" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585405606054" />
+    <state x="1851" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585477214889">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1851" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585477214889" />
     <state x="1826" y="108" key="FileChooserDialogImpl" timestamp="1585408558241">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1826" y="108" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408558241" />
-    <state width="1317" height="219" key="GridCell.Tab.0.bottom" timestamp="1585408924480">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom" timestamp="1585478752493">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408924480" />
-    <state width="1317" height="219" key="GridCell.Tab.0.center" timestamp="1585408924480">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
+    <state width="1317" height="219" key="GridCell.Tab.0.center" timestamp="1585478752493">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408924480" />
-    <state width="1317" height="219" key="GridCell.Tab.0.left" timestamp="1585408924479">
+    <state width="1317" height="219" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
+    <state width="1317" height="219" key="GridCell.Tab.0.left" timestamp="1585478752492">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408924479" />
-    <state width="1317" height="219" key="GridCell.Tab.0.right" timestamp="1585408924480">
+    <state width="1317" height="219" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752492" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right" timestamp="1585478752493">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408924480" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
     <state x="1549" y="9" key="SettingsEditor" timestamp="1585408566199">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1549" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408566199" />
+    <state x="1753" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1585475577100">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1753" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585475577100" />
+    <state x="1408" y="128" key="new project wizard" timestamp="1585481119958">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1408" y="128" key="new project wizard/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585481119958" />
   </component>
 </project>
