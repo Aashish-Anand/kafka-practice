@@ -1,4 +1,4 @@
-package com.github.aashish.kafka.tutorial2;
+package kafka.tutorial2;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;
@@ -19,7 +19,6 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
@@ -35,7 +34,11 @@ public class TwitterProducer {
     String secret = "";
 
     // Optional: set up some followings and track terms
-    List<String> terms = Lists.newArrayList("kafka"); // only tweets related to bitcoins will be pulled
+    List<String> terms = Lists.newArrayList("bitcoin", "usa", "politics", "sport", "soccer"); // only tweets
+    // related to
+    // bitcoins
+    // will be
+    // pulled
 
     public TwitterProducer() {
 
@@ -129,11 +132,17 @@ public class TwitterProducer {
                 StringSerializer.class.getName());
 
         //create a safe producer
-        properties.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG,"true");
-        properties.setProperty(ProducerConfig.ACKS_CONFIG,"all");
+        properties.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
+        properties.setProperty(ProducerConfig.ACKS_CONFIG, "all");
         properties.setProperty(ProducerConfig.RETRIES_CONFIG, Integer.toString(Integer.MAX_VALUE));
-        properties.setProperty(ProducerConfig.MAX_IN_FLIGHT_REQUESTS_PER_CONNECTION,"5"); // kakfa 2.0 >=1
+        properties.setProperty(ProducerConfig.MAX_IN_FLIGHT_REQUESTS_PER_CONNECTION, "5"); // kakfa 2.0 >=1
         // .1 so we can keep this as 5. Use 1 otherwise
+
+        //high throughput setting (at the expense of buit of latency and CPU usage)
+        properties.setProperty(ProducerConfig.COMPRESSION_TYPE_CONFIG, "snappy");
+        properties.setProperty(ProducerConfig.LINGER_MS_CONFIG, "20");
+        properties.setProperty(ProducerConfig.BATCH_SIZE_CONFIG, Integer.toString(32 * 1024)); //32KB batch
+        // size
 
         return new KafkaProducer<String, String>(properties);
 

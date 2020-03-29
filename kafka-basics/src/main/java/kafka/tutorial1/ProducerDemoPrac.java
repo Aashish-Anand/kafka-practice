@@ -1,7 +1,6 @@
-package com.github.aashish.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.producer.*;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
