@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b9a7632-c3a9-4b00-bea2-e8af0d006954" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <recent name="com.github.aashish.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoPrac">
+  <component name="RunManager" selected="Application.TwitterProducer">
     <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoAssignSeek" />
       <module name="Kafka_tutorials" />
@@ -59,19 +60,6 @@
     </configuration>
     <configuration name="ConsumerDemoPrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoPrac" />
-      <module name="Kafka_tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.aashish.kafka.tutorial1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerDemoWithThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial1.ConsumerDemoWithThread" />
       <module name="Kafka_tutorials" />
       <extension name="coverage">
         <pattern>
@@ -109,20 +97,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.aashish.kafka.tutorial2.TwitterProducer" />
+      <module name="Kafka_tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.aashish.kafka.tutorial2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConsumerDemoWithThread" />
       <item itemvalue="Application.ConsumerDemoAssignSeek" />
       <item itemvalue="Application.ProducerDemoPrac" />
       <item itemvalue="Application.ProducerDemo" />
       <item itemvalue="Application.ConsumerDemoPrac" />
+      <item itemvalue="Application.TwitterProducer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterProducer" />
         <item itemvalue="Application.ConsumerDemoPrac" />
         <item itemvalue="Application.ProducerDemoPrac" />
         <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="Application.ConsumerDemoAssignSeek" />
-        <item itemvalue="Application.ConsumerDemoWithThread" />
       </list>
     </recent_temporary>
   </component>
@@ -152,22 +153,22 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1826" y="108" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585408558241" />
-    <state width="1317" height="219" key="GridCell.Tab.0.bottom" timestamp="1585478752493">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom" timestamp="1585486628483">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
-    <state width="1317" height="219" key="GridCell.Tab.0.center" timestamp="1585478752493">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585486628483" />
+    <state width="1317" height="219" key="GridCell.Tab.0.center" timestamp="1585486628483">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
-    <state width="1317" height="219" key="GridCell.Tab.0.left" timestamp="1585478752492">
+    <state width="1317" height="219" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585486628483" />
+    <state width="1317" height="219" key="GridCell.Tab.0.left" timestamp="1585486628483">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752492" />
-    <state width="1317" height="219" key="GridCell.Tab.0.right" timestamp="1585478752493">
+    <state width="1317" height="219" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585486628483" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right" timestamp="1585486628483">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="219" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585478752493" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585486628483" />
     <state x="1549" y="9" key="SettingsEditor" timestamp="1585408566199">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
