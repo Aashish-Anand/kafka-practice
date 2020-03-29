@@ -29,10 +29,10 @@ public class TwitterProducer {
 
     // You can get this value from the twitter developer page
     // https://developer.twitter.com/
-    String consumerKey = "0MN3NEalSTgQ4TWLZaNnkHyzs";
-    String consumerSecret = "eK4GugJMBMNEQZwYpU9fqAzOHedbWoHsHeeNIoDea4R9m53LKI";
-    String token = "1244217726962298881-Usi3IZMpUUtKaLqhUHXegGgONOvuK1";
-    String secret = "zADFSWLbrOhmZsIB1mcZ6h9QRXqqqo2JDWLdYm0ex0vrv";
+    String consumerKey="";
+    String consumerSecret="";
+    String token="";
+    String secret="";
 
     // Optional: set up some followings and track terms
     List<String> terms = Lists.newArrayList("kafka"); // only tweets related to bitcoins will be pulled
