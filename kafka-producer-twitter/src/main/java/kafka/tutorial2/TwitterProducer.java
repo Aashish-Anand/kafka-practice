@@ -33,9 +33,10 @@ public class TwitterProducer {
     String token = "";
     String secret = "";
 
+
     // Optional: set up some followings and track terms
     List<String> terms =
-            Lists.newArrayList("couchbase", "kakfa", "programming"); // only tweets
+            Lists.newArrayList("bollywood", "soccer"); // only tweets
     // related to
     // bitcoins
     // will be
