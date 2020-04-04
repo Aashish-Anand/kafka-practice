@@ -32,8 +32,7 @@ import java.util.Properties;
 public class ElasticSearchConsumer1 {
 
     public static RestHighLevelClient createClient() {
-
-
+        
         String hostname = "";
         String username = "";
         String password = "";
