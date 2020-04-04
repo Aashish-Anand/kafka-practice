@@ -34,7 +34,8 @@ public class TwitterProducer {
     String secret = "";
 
     // Optional: set up some followings and track terms
-    List<String> terms = Lists.newArrayList("bitcoin", "usa", "politics", "sport", "soccer"); // only tweets
+    List<String> terms =
+            Lists.newArrayList("couchbase", "kakfa", "programming"); // only tweets
     // related to
     // bitcoins
     // will be
@@ -50,9 +51,9 @@ public class TwitterProducer {
 
     public void run() {
 
-        /** Set up your blocking queues: Be sure to size these properly based on expected TPS of your
-         * stream */
-        BlockingQueue<String> msgQueue = new LinkedBlockingQueue<String>(1000);
+        // Set up your blocking queues: Be sure to size these properly based on expected TPS of your
+        // stream
+        BlockingQueue<String> msgQueue = new LinkedBlockingQueue<>(1000);
 
         //create a twitter client
         Client client = createTwitterClient(msgQueue);
@@ -99,7 +100,7 @@ public class TwitterProducer {
 
     public Client createTwitterClient(BlockingQueue<String> msgQueue) {
 
-        /**
+        /*
          * Declare the host you want to connect to, the endpoint, and authentication (basic auth or oauth)
          */
         Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);
